@@ -111,4 +111,5 @@ export interface FeatureToggles {
   vizAndWidgetSplit?: boolean;
   prometheusIncrementalQueryInstrumentation?: boolean;
   awsDatasourcesTempCredentials?: boolean;
+  transformationsRedesign?: boolean;
 }

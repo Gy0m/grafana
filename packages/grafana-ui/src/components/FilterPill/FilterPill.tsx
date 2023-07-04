@@ -39,6 +39,7 @@ const getStyles = (theme: GrafanaTheme2) => {
       display: flex;
       align-items: center;
       height: 32px;
+      white-space: nowrap;
 
       &:hover {
         background: ${theme.colors.action.hover};
